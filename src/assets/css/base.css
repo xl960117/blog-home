@@ -1,0 +1,13 @@
+.title-wrap {
+  font-size: 18px;
+  font-weight: bold;
+}
+.title-wrap:before {
+  display: inline-block;
+  height: 20px;
+  border-left: 5px solid #209EFF;
+  content: '';
+  margin-right: 5px;
+  vertical-align: middle;
+  margin-bottom: 3px;
+}
