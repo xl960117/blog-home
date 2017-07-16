@@ -1,0 +1,12 @@
+.el-form-item {
+  margin-bottom: 40px !important;
+}
+.el-menu-item-group__title {
+  padding: 0;
+  height: 40px !important;
+  line-height: 40px !important;
+  background-color: #324157 !important;
+}
+.el-menu--dark {
+  background-color: #1f2d3d;
+}
