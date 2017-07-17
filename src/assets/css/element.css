@@ -10,3 +10,8 @@
 .el-menu--dark {
   background-color: #1f2d3d;
 }
+.el-dropdown-menu__item {
+  font-size: 14px;
+  text-align: center;
+  color: #333333;
+}

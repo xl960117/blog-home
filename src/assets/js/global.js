@@ -27,7 +27,7 @@ const commonFn = {
         case 1:
           this.$message({
             type: 'success',
-            mesage: msg,
+            message: msg,
             duration: 1000
           })
           break;
@@ -38,6 +38,12 @@ const commonFn = {
             duration: 1500
           })
           break;
+        default:
+          this.$message({
+            type: 'info',
+            message: msg,
+            duration: 1000
+          })
       }
     },
     dealError(res) {

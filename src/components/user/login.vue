@@ -28,8 +28,6 @@
     top: 0;
     bottom: 0;
     width: 100%;
-    background: url(../../assets/img/bg.jpg) no-repeat;
-    background-size: 100%;
   }
   .login-box {
     background-color: rgb(255, 255, 255);
@@ -68,6 +66,10 @@
             this.disabled = false
             if (res.code == 200) {
               this.Toast(res.msg, 1)
+              window.Lockr.set('user_info', this.user.name)
+              setTimeout(() => {
+                this.$router.push({ name: 'Home' })
+              }, 1500)
             } else {
               this.dealError(res)
             }
